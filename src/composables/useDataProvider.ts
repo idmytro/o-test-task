@@ -12,8 +12,6 @@ export function useDataProvider () {
   const currentDay = ref(today)
 
   function saveItems (items: ContactItem[]): void {
-    // console.log(items)
-
     items.forEach((item) => {
       days[item.contact_date] = {
         ...item,
@@ -58,6 +56,7 @@ export function useDataProvider () {
 
   const currentItems = computed(() => {
     const prevDay = getPreviousChunkDay(currentDay.value)
+
     return getDaysRange(today, prevDay).map(day => ({ ...days[day] }))
   })
 

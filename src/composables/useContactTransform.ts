@@ -11,6 +11,7 @@ function regularDistribution (circleSizeParam: number, itemsCountParam: number):
     resultValue.push(transformValue)
     rot += angle
   }
+
   return resultValue
 }
 
@@ -35,6 +36,7 @@ function extendedDistribution (circleSizeParam: number, itemsCountParam: number)
     resultValue.push(transformValue)
     rot += angle
   }
+
   return resultValue
 }
 

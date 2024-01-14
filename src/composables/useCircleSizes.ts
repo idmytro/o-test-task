@@ -42,6 +42,7 @@ export function useCircleSizes (width: Ref<number>) {
       return 9999999
     if (index < 0)
       return 0
+
     return circleSizesArray.value[index]
   }
 

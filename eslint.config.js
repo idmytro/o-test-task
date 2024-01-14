@@ -17,6 +17,7 @@ export default antfu(
           asyncArrow: 'always',
         },
       ],
+      'newline-before-return': 2,
 
       'ts/prefer-function-type': 2,
       'ts/consistent-type-definitions': [2, 'type'],

@@ -6,7 +6,8 @@
     "dev": "vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "typecheck": "vue-tsc --noEmit"
   },
   "dependencies": {
     "@unocss/reset": "^0.58.3",

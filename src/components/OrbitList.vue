@@ -39,6 +39,7 @@ function getCircleStyle (index: number): string {
 
 const logoMargin = computed(() => {
   const marginBase = 40
+
   return props.width * marginBase / 1920
 })
 </script>
