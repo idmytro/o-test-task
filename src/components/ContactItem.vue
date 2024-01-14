@@ -48,7 +48,7 @@ const daysAgo = computed(() => {
   <HoverCardRoot v-model:open="hoverState" :close-delay="1000">
     <HoverCardTrigger class="block cursor-pointer size-60px">
       <div class="rounded-full p-1px bg-gradient-to-b from-white size-full">
-        <img :src="data.img" class="object-cover h-full w-full rounded-full">
+        <img :src="data.img" class="object-cover h-full w-full rounded-full bg-black">
       </div>
     </HoverCardTrigger>
     <HoverCardPortal>
