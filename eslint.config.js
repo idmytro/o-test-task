@@ -9,6 +9,7 @@ export default antfu(
   },
   {
     rules: {
+      'newline-before-return': 2,
       'style/space-before-function-paren': [
         2,
         {
@@ -17,16 +18,11 @@ export default antfu(
           asyncArrow: 'always',
         },
       ],
-      'newline-before-return': 2,
-
       'ts/prefer-function-type': 2,
       'ts/consistent-type-definitions': [2, 'type'],
-
       'unused-imports/no-unused-imports': 0, // look below
       'no-autofix/unused-imports/no-unused-imports': 2,
-
       'vue/prop-name-casing': 0,
-
       'vue/html-self-closing': [1, {
         html: {
           void: 'never',
