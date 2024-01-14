@@ -59,7 +59,7 @@ const transforms = useContactTransform(
   </div>
 </template>
 
-<style lang="scss">
+<style>
 .circle-container {
   --item-size: 60px;
 
@@ -69,18 +69,17 @@ const transforms = useContactTransform(
   border-radius: 50%;
   padding: 0;
   list-style: none;
+}
 
-  li {
-    // border: 1px solid silver;
-    background-color: #000;
-    border-radius: 50%;
-    display: block;
-    position: absolute;
-    top:  50%;
-    left: 50%;
-    margin: calc(-1 * (var(--item-size) / 2));
-    width:  var(--item-size);
-    height: var(--item-size);
-  }
+.circle-container li {
+  background-color: #000;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  top:  50%;
+  left: 50%;
+  margin: calc(-1 * (var(--item-size) / 2));
+  width:  var(--item-size);
+  height: var(--item-size);
 }
 </style>

@@ -24,7 +24,6 @@
     "eslint": "^8.56.0",
     "eslint-plugin-no-autofix": "^1.2.3",
     "remove-attr": "^0.0.13",
-    "sass": "^1.69.7",
     "typescript": "5.0.4",
     "unocss": "^0.58.3",
     "unplugin-auto-import": "^0.17.3",
