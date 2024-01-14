@@ -1,17 +1,6 @@
-/*
-    $angle: (180 / ($item-count - 1) );
-    $rot: 180;
-
-    @for $i from 1 through $item-count {
-      &:nth-of-type(#{$i}) {
-        transform: rotate($rot * 1deg) translate(calc($circle-size / 2)) rotate($rot * -1deg);
-      }
-
-      $rot: $rot + $angle;
-    }
-*/
-
-// const circleSize = 60
+/**
+ * @see https://kittygiraudel.com/2013/04/02/items-along-a-circle/
+ */
 
 function regularDistribution (circleSizeParam: number, itemsCountParam: number): string[] {
   let rot = 180

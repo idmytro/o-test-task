@@ -10,5 +10,6 @@ export function getDaysRange (from: string, to: string): string[] {
     days.push(current)
     current = formatDay(addDays(new Date(current), -1))
   }
+
   return days
 }
