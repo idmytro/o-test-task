@@ -26,7 +26,7 @@ export function useDataProvider () {
     if (!date)
       return
 
-    const url = `https://xwmi-5dlx-wkyj.t7.xano.io/api:oUvfVMO5/receive_week?start_date=${date}`
+    const url = `https://xsrr-l2ye-dpbj.f2.xano.io/api:oUvfVMO5/receive_week?start_date=${date}`
 
     fetch(url)
       .then(response => response.json())
